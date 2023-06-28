@@ -111,9 +111,11 @@ const rowProduct = document.querySelector('.row-product')
         rowProduct.append(containerProduct);
 
         // Conseguir el total del valor , con el array .slice-(1) se quita el simbolo default 
-        total = total + parseFloat (product.quantity * product.price.slice(1))
-
-        console.log(product.price)
+        if (product.price.startsWith('$')) {
+            total = total + parseFloat(product.quantity * product.price.slice(1));
+          } else {
+            total = total + parseFloat(product.quantity * product.price);
+          }
 
         // total de productos
 
@@ -127,13 +129,5 @@ const rowProduct = document.querySelector('.row-product')
 
     };
 
-    window.addEventListener('DOMContentLoaded', (event) => {
-      const container = document.querySelector('.container-cart-product');
-      const iconClose = document.querySelector('.icon-close');
-      
-      if (container.querySelector('.cart-product')) {
-        container.style.display = 'block';
-        iconClose.style.display = 'block';
-      }
-    });
+
   

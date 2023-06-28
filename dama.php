@@ -94,7 +94,6 @@ array(
 
   // Agrega más productos aquí
 );
-
 ?>
 
 <!DOCTYPE html>
@@ -106,9 +105,6 @@ array(
     <title>Document</title>
     <link rel="stylesheet" href="style1.css">
     <script src="https://kit.fontawesome.com/17552d8682.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    
-
 </head>
 
 <body>
@@ -152,11 +148,8 @@ array(
                       <div class="cart-total hidden"> 
                           <h3>TOTAL</h3>
                           <SPAN class="total-pagar">$0</SPAN>
-                        </div>
-                        <form action="procesar_pago.php" method="post">
-                            <input type="submit" value="Pagar">
-                        </form>
-                      
+      
+                      </div>
                       <p class="cart-empty"></p>
                   </div>
               </div>
