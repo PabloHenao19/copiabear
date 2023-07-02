@@ -82,7 +82,7 @@
                   
                   <div class="Colección"> <h1> Nueva Colección</h1> </div>
                 <ul>  
-                  <li><a href="Dama.php" class="categoria">Dama </a></li>
+                  <li><a href="dama.php" class="categoria">Dama </a></li>
                   <li><a href="caballero.php" class="categoria">Caballero </a></li>
                   <li><a href="calzado.php" class="categoria">Calzado </a></li>
                   <li><a href="infantil.php" class="categoria">Infantil</a></li>
