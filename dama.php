@@ -163,10 +163,10 @@ array(
               
         </header>
 
-    <div class="video"> <video src="Imagen/video2.mp4" loop autoplay muted></video> </div>
+      <div class="video"> <video src="Imagen/video2.mp4" loop autoplay muted></video> </div>
 
-    <div class="container-img">
-        <?php foreach ($productos as $producto): ?>
+          <div class="container-img">
+            <?php foreach ($productos as $producto): ?>
             <div class="items">
                 <figure><img src="<?php echo $producto['imagen']; ?>" alt="Dama"></figure>
                 <div class="info-product">
